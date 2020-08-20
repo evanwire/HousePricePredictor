@@ -1,7 +1,7 @@
-all: third
+all: predict
 
-third:
-	gcc -Wall -Werror -fsanitize=address -std=c11 third.c -o third
+predict:
+	gcc -Wall -Werror -fsanitize=address -std=c11 predict.c -o predict
 
 clean:
-	rm -rf third
+	rm -rf predict
