@@ -2,14 +2,14 @@
 
 The price of a house (y) can depend on various things. These attributes include the number of bedrooms (x1), the size of the house (x2), the number of bathrooms (x3), and the year the house was built (x4). However, these attributes do not equally contribute to the price of the house, some of these features matter more than others. If we know how each attribute was weighted, or how much each attribute mattered when calculating the price of a house, we could make relatively accurate predictions on the prices of houses when we only have access to the attributes of the house. Linear Regression is an algorithm that helps find these aformentioned weights (w1, w2, w3, w4). Once the weights are found, the price of any house can be predicted with the following formula (assuming we know all of the house's attributes):
 
->y = w0 + w1.x1 + w2.x2 + w3.x3 + w4.x4
+>y = w0 + w1.x1 + w2.x2 + w3.x3 + w4.x4<br>
 *You might notice this looks awfully like the equation for a line, hence the linear from the name linear regression*
 
 ### To Run
 
 In the project directory, run the following two commands:
 
->make
+>make<br>
 >./predict \<train-data-file-name\>.txt \<test-data-file-name\>.txt
 
 ### Structure of the training data file
